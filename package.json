@@ -6,8 +6,7 @@
   "description": "Groups a PosixPathWalk's file list into counts and byte totals per lowercased extension, with no filesystem access. Use after a walk to see the shape of a tree before graphing it.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/red-cup-engineering/computer-file-engineering-services-section.git",
-    "directory": "services/file-observation-services-section/services/file-type-slicing-service"
+    "url": "git+https://github.com/red-cup-engineering/file-type-slicing-service.git"
   },
   "exports": "./src/slice-files-by-type.mjs",
   "bin": {
