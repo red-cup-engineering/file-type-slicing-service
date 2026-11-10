@@ -8,3 +8,7 @@
 <!-- 561-group-standards:badges:end -->
 
 Groups a PosixPathWalk's file list into counts and byte totals per lowercased extension, with no filesystem access. Use after a walk to see the shape of a tree before graphing it.
+
+## Acceptance
+
+Run `npm test` for the source suite. See the [API reference](docs/API.md) and [runnable consumer example](examples/quickstart.test.mjs).

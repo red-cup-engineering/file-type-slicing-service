@@ -15,7 +15,8 @@
   "scripts": {
     "check": "node --check src/slice-files-by-type.mjs && node --check scripts/slice-files-by-type.mjs",
     "test": "node --test test/*.test.mjs",
-    "verify": "npm run check && npm test"
+    "verify": "npm run check && npm test",
+    "test:consumer": "node --test examples/quickstart.test.mjs"
   },
   "engines": {
     "node": ">=22"
@@ -25,7 +26,9 @@
     "README*",
     "LICENSE*",
     "scripts",
-    "src"
+    "src",
+    "docs/API.md",
+    "examples/quickstart.test.mjs"
   ],
   "license": "MIT",
   "funding": {
