@@ -11,4 +11,4 @@ Groups a PosixPathWalk's file list into counts and byte totals per lowercased ex
 
 ## Acceptance
 
-Run `npm test` for the source suite. See the [API reference](docs/API.md) and [runnable consumer example](examples/quickstart.test.mjs).
+Run `npm test` for the source suite. See the [runnable consumer example](examples/quickstart.test.mjs).
