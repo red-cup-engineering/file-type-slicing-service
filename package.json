@@ -1,0 +1,34 @@
+{
+  "name": "@red-cup-engineering/file-type-slicing-service",
+  "version": "0.1.6-dev.0",
+  "private": false,
+  "type": "module",
+  "description": "Groups a PosixPathWalk's file list into counts and byte totals per lowercased extension, with no filesystem access. Use after a walk to see the shape of a tree before graphing it.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/file-type-slicing-service.git"
+  },
+  "exports": "./src/slice-files-by-type.mjs",
+  "bin": {
+    "slice-files-by-type": "./scripts/slice-files-by-type.mjs"
+  },
+  "scripts": {
+    "check": "node --check src/slice-files-by-type.mjs && node --check scripts/slice-files-by-type.mjs",
+    "verify": "npm run check"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "files": [
+    "package.json",
+    "README*",
+    "LICENSE*",
+    "scripts",
+    "src"
+  ],
+  "license": "MIT",
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/561-group/.github/blob/main/TIPS.md"
+  }
+}
